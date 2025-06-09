@@ -43,34 +43,3 @@ sudo apt update
 sudo apt upgrade
 sudo apt install python3 python3-pip python3-picamera2 python3-pygame python3-gpiozero python3-numpy python3-opencv python3-pil lighttpd hostapd dnsmasq
 
-Falls Fehlermeldungen bzgl. numpy oder pygame kommen, auch versuchen:
-
-bash
-Kopieren
-sudo apt install libatlas-base-dev
-pip3 install opencv-python pillow pygame
-2. Kamera aktivieren
-bash
-Kopieren
-sudo raspi-config
-# Interfacing Options -> Kamera aktivieren -> Reboot!
-3. Projekt-Ordnerstruktur
-text
-Kopieren
-fotobox/
-  |-- fotobox6.py         # Das Hauptskript
-  |-- config.ini          # Deine Konfigurationsdatei
-  |-- static/
-       |-- party.png
-       |-- photo.png
-       |-- check.png
-       |-- back.png
-       |-- kamera.wav
-       |-- countdown/
-             |-- 1.png
-             |-- 2.png
-             |-- 3.png
-             |-- 4.png
-             |-- 5.png
-
-
