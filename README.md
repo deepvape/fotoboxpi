@@ -1,4 +1,4 @@
-# Fotobox Pi
+# 📸 Fotobox Pi
 
 # 📸 SelfieStation – Raspberry Pi Fotobox
 
@@ -27,7 +27,7 @@ Nimm Fotos auf, teile sie sofort im WLAN, und lass deine Gäste das Event rocken
 
 - Raspberry Pi 4 (oder besser)
 - Raspberry Pi Kamera Modul v3
-- 7-Zoll-Touchscreen (1280×720, Querformat)
+- 7-Zoll-Touchscreen (1280×720, Querformat) (https://www.berrybase.de/raspberry-pi-touch-display-2)
 - USB-Stick (zum Speichern der Bilder)
 - Physische Taster (optional, z.B. Arcade-Buttons für Auslösen, Behalten, Neu machen)
 - Lautsprecher (USB, 3.5mm oder HDMI)
@@ -194,7 +194,7 @@ sudo systemctl restart dhcpcd hostapd dnsmasq lighttpd
 ```
 
 **Jetzt finden Gäste im WLAN „Fotobox“ die Galerie unter http://192.168.4.1**  
-*(Optional: Captive Portal wie in der Anleitung deaktivieren.)*
+
 
 ---
 
@@ -309,7 +309,8 @@ MIT License – Für private und kommerzielle Zwecke frei nutzbar.
 ## 💬 Support
 
 Fragen, Wünsche, Bugs?  
-Issue auf GitHub öffnen – oder Patrick direkt anschreiben! 😊
+Issue auf GitHub öffnen – oder mich direkt anschreiben! 😊
+Das Skript ist komplett mit ChatGPT geschrieben. Dort könnt ihr auch Fragen stellen 😊
 
 ---
 
