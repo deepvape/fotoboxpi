@@ -201,7 +201,7 @@ sudo systemctl restart dhcpcd hostapd dnsmasq lighttpd
 ## ▶️ Fotobox starten
 
 ### A) Start-Skript anlegen
-
+Wichtig /home/pi <-- muss euer Pfad hin wo Fotobox liegt
 Datei: `start-fotobox.sh` im fotobox-Ordner:
 
 ```bash
@@ -224,6 +224,7 @@ Starten:
 
 ### B) Optional: Desktop-Verknüpfung
 
+Wichtig /home/pi <-- muss euer Pfad hin wo Fotobox liegt
 Datei: `~/Desktop/Fotobox.desktop`
 
 ```ini
@@ -244,6 +245,7 @@ chmod +x ~/Desktop/Fotobox.desktop
 ```
 
 ### C) Optional: Autostart
+Wichtig /home/pi <-- muss euer Pfad hin wo Fotobox liegt
 
 Eintragen in  
 `~/.config/lxsession/LXDE-pi/autostart`  
