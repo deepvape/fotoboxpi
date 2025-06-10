@@ -225,6 +225,7 @@ Starten:
 ### B) Optional: Desktop-Verknüpfung
 
 Wichtig /home/pi <-- muss euer Pfad hin wo Fotobox liegt
+
 Datei: `~/Desktop/Fotobox.desktop`
 
 ```ini
