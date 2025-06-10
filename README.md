@@ -207,7 +207,7 @@ Datei: `start-fotobox.sh` im fotobox-Ordner:
 ```bash
 #!/bin/bash
 cd /home/pi/fotobox
-python3 fotobox6.py
+python3 fotobox.py
 ```
 
 Ausführbar machen:
