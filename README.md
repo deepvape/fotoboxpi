@@ -310,6 +310,7 @@ MIT License – Für private und kommerzielle Zwecke frei nutzbar.
 
 Fragen, Wünsche, Bugs?  
 Issue auf GitHub öffnen – oder mich direkt anschreiben! 😊
+
 Das Skript ist komplett mit ChatGPT geschrieben. Dort könnt ihr auch Fragen stellen 😊
 
 ---
