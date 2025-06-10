@@ -1,0 +1,9 @@
+# Fotobox generierte Daten & temporäres
+bilder/
+thumbnails/
+galerie/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
