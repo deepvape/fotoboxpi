@@ -84,37 +84,37 @@ fotobox/
 
 ```ini
 [Fotobox]
-event_titel = Fotobox 90. Geburtstag
-countdown_text = Lächeln!
-countdown_seconds = 5
-header_text_ready = Mach dich bereit!
-footer_text_ready = Touch/Buzzer → Start
-footer_text_take = Touch/Buzzer → Foto aufnehmen
-footer_text_keep = Behalten
-footer_text_new = Neu machen
+event_titel = Fotobox 90. Geburtstag    # Event Namen einstellen
+countdown_text = Lächeln!  # Text einstellen oder einfach lassen
+countdown_seconds = 5 # Countdown kannst du nur kürzer machen, würde ich auf 5 lassen
+header_text_ready = Mach dich bereit! # Text beim Fotomachen oben
+footer_text_ready = Touch/Buzzer → Start # Text auf Startseite unten
+footer_text_take = Touch/Buzzer → Foto aufnehmen # Text bei Fotomachen Seite
+footer_text_keep = Behalten # Behalten Text
+footer_text_new = Neu machen # Neumachen Text
 flip_preview = true          # Vorschau gespiegelt
 flip_save = false            # Optional gespeichertes Bild spiegeln
 
 [Design]
-top_bg = 30,30,30
-mid_bg = 50,50,50
-footer_bg = 30,30,30
-slideshow_frame_color = 255,215,0
-slideshow_shadow_color = 20,20,20
+top_bg = 30,30,30  # Background Design Oben
+mid_bg = 50,50,50 # Background Design Mitte
+footer_bg = 30,30,30 # Background Design unten
+slideshow_frame_color = 255,215,0 # Startbildschirm bei der Slideshow die Rahmen Farbe
+slideshow_shadow_color = 20,20,20 # Startbildschirm bei der Slideshow die Schatten Farbe
 
 [Kamera]
-foto_auflösung = 1920,1080
-preview_auflösung = 1280,720
+foto_auflösung = 1920,1080 # FullHD Auflösung ich habe aber 4608,2592 (4608 × 2592 Pixel) genommen
+preview_auflösung = 1280,720 # Vorschau Auflösung
 
 [GPIO]
-button_shoot = 22
-button_keep = 23
-button_new = 24
+button_shoot = 22 # GPIO Button für Foto schießen, frei wählbar
+button_keep = 23 # GPIO Button für Foto behalten, frei wählbar
+button_new = 24 # GPIO Button für Foto neumachen, frei wählbar
 
 [Sonstiges]
-sound_path = static/kamera.wav
-usb_ordner = /media/pi
-thumbnail_size = 320,180
+sound_path = static/kamera.wav # Kamera Sound in Wav Format
+usb_ordner = /media/pi # Dort muss dein Raspberry Pi Benutzer rein
+thumbnail_size = 320,180 # Thumbnail Größe
 ```
 
 ---
