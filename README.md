@@ -202,6 +202,7 @@ sudo systemctl restart dhcpcd hostapd dnsmasq lighttpd
 
 ### A) Start-Skript anlegen
 Wichtig /home/pi <-- muss euer Pfad hin wo Fotobox liegt
+
 Datei: `start-fotobox.sh` im fotobox-Ordner:
 
 ```bash
